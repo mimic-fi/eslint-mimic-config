@@ -21,6 +21,7 @@ module.exports = {
     "comma-spacing": ["error", { before: false, after: true }],
     "mocha-no-only/mocha-no-only": ["error"],
     "no-secrets/no-secrets":"error",
+    "import/named": "off",
     "import/no-extraneous-dependencies": "off",
     "import/no-unresolved": "off",
     "simple-import-sort/imports": "error",
