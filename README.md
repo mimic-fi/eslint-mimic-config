@@ -1,0 +1,2 @@
+# Eslint config for Mimic
+
