@@ -9,7 +9,7 @@
     <img src="https://badge.fury.io/js/eslint-config-mimic.svg" alt="NPM">
   </a>
   <a href="https://discord.mimic.fi">
-    <img src="https://img.shields.io/discord/747115528198332456" alt="Discord">
+    <img src="https://img.shields.io/discourse/status?server=https%3A%2F%2Fmeta.discourse.org" alt="Discord">
   </a>
   <a href="./LICENSE">
     <img src="https://img.shields.io/badge/license-GPL_3.0-green">
@@ -58,10 +58,6 @@ To use the Mimic ESLint configuration in your own project, follow these steps:
 Install the `eslint-config-mimic` package as a development dependency:
 
 ```bash
-# Using npm
-$ npm install --save-dev eslint-config-mimic
-
-# Using Yarn
 $ yarn add --dev eslint-config-mimic
 ```
 
