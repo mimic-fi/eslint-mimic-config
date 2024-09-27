@@ -10,7 +10,7 @@ import eslintPluginNoSecrets from "eslint-plugin-no-secrets";
 
 export default [
   {
-    ignores: ["node_modules/**", "**/dist/**"],
+    ignores: ["node_modules/**", "**/dist/**", "**/.prettierrc.*"],
   },
   {
     files: ["**/*.{js,jsx,ts,tsx}"],
