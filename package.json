@@ -2,24 +2,27 @@
   "name": "eslint-config-mimic",
   "version": "0.0.2",
   "license": "GPL-3.0",
+  "main": "index.mjs",
   "engines": {
-    "node": ">=12.0.0"
+    "node": ">=18.0.0"
   },
   "files": [
-    "index.js",
-    "prettier.js"
+    "index.mjs"
   ],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.1.1",
-    "@typescript-eslint/parser": "^4.1.1",
-    "eslint": "^7.9.0",
-    "eslint-plugin-array-func": "^3.1.7",
-    "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-mocha-no-only": "^1.1.1",
-    "eslint-plugin-no-secrets": "^0.8.9",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-simple-import-sort": "^7.0.0",
-    "prettier": "^2.2.1"
+    "@typescript-eslint/eslint-plugin": "^8.6.0",
+    "@typescript-eslint/parser": "^8.6.0",
+    "eslint": "^9.10.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-mocha-no-only": "^1.2.0",
+    "eslint-plugin-no-secrets": "^1.0.2",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.36.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "prettier": "^3.3.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
   }
 }
