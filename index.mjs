@@ -54,6 +54,7 @@ export default [
       "react/react-in-jsx-scope": "off",
       "no-unused-vars": "off",
       "@typescript-eslint/no-unused-vars": ["error"],
+      "@typescript-eslint/no-unused-expressions": "off",
       "comma-spacing": ["error", { before: false, after: true }],
       "mocha-no-only/mocha-no-only": ["error"],
       "no-secrets/no-secrets": "error",
